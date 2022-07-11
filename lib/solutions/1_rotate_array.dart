@@ -1,5 +1,5 @@
 // Solution - 1
-void rotate(List<int> nums, int k) {
+void rotate_1(List<int> nums, int k) {
   if (k > nums.length) {
     k = k % nums.length;
   }
@@ -18,3 +18,7 @@ void rotate(List<int> nums, int k) {
   List.copyRange(nums, 0, result, 0);
   print(nums);
 }
+
+void rotate_2() {}
+
+void rotate_3() {}
