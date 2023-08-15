@@ -18,7 +18,7 @@ class Solution {
 
 void main() {
   var s = Solution();
-  final nums = [2, 3, 4, 6, 7, 8];
-  final target = 9;
+  final nums = [1, 4, 2, 5, 3, 6, 7, 8, 9];
+  final target = 10;
   print(s.twoSum(nums, target));
 }
