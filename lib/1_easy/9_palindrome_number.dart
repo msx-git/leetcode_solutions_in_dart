@@ -9,7 +9,6 @@ class Solution {
 
     while (x > halfReversed) {
       halfReversed = halfReversed * 10 + x % 10;
-      print(halfReversed);
       x = x ~/ 10;
     }
 
