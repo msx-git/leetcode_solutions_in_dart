@@ -16,6 +16,7 @@ class Solution {
   }
 }
 
+
 void main() {
   var s = Solution();
   final nums = [1, 4, 2, 5, 3, 6, 7, 8, 9];
