@@ -1,3 +1,6 @@
+import 'dart:convert';
+import 'dart:io';
+
 class ListNode {
   int val;
   ListNode? next;
@@ -43,4 +46,8 @@ void main() {
   ListNode? newHead = solution.deleteDuplicates(node1);
 
   printList(newHead);
+
+  int a = int.parse(stdin.readLineSync(encoding: utf8)!);
+  print(a);
+
 }
