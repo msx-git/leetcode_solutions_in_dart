@@ -34,5 +34,5 @@ void main() {
   int n = 3;
 
   s.merge(nums1, m, nums2, n);
-  print(nums1); // Output: [1, 2, 2, 3, 5, 6]
+  print(nums1);
 }
