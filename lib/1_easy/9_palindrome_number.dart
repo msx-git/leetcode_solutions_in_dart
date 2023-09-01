@@ -4,7 +4,6 @@ class Solution {
       return false;
     }
 
-
     int halfReversed = 0;
 
     while (x > halfReversed) {
@@ -15,8 +14,6 @@ class Solution {
     return x == halfReversed || x == halfReversed ~/ 10;
   }
 }
-
-
 
 void main() {
   final s = Solution();

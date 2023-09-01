@@ -1,15 +1,15 @@
 class Solution {
   List<int> twoSum(List<int> nums, int target) {
-    Map<int, int> numToIndex = {};
+    Map<int, int> map = {};
 
     for (int i = 0; i < nums.length; i++) {
       int num = nums[i];
-      int complement = target - num;
+      int filler = target - num;
 
-      if (numToIndex.containsKey(complement)) {
-        return [numToIndex[complement]!, i];
+      if (map.containsKey(filler)) {
+        return [map[filler]!, i];
       } else {
-        numToIndex[num] = i;
+        map[num] = i;
       }
     }
     return [];
@@ -19,7 +19,7 @@ class Solution {
 
 void main() {
   var s = Solution();
-  final nums = [1, 4, 2, 5, 3, 6, 7, 8, 9];
+  final nums = [1, 5, 3, 6, 7, 8, 9];
   final target = 10;
   print(s.twoSum(nums, target));
 }
